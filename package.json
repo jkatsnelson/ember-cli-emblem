@@ -10,7 +10,7 @@
     "ember-addon",
     "emblem"
   ],
-  "ember-addon-main": "lib/ember-addon-main.js",
+  "ember-addon": "lib/ember-addon.js",
   "author": "John Katsnelson",
   "license": "ISC"
 }
