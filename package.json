@@ -2,12 +2,13 @@
   "name": "ember-cli-emblem",
   "version": "0.0.0",
   "description": "Include emblem broccoli compiler and blueprints into your Ember-CLI project",
-  "main": "index.js",
+  "main": "lib/ember-addon-main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "emblem"
   ],
   "ember-addon-main": "lib/ember-addon-main.js",
   "author": "John Katsnelson",
