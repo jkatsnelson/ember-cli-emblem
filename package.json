@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/jkatsnelson/ember-cli-emblem",
   "dependencies": {
-    "broccoli-emblem-compiler"
+    "broccoli-emblem-compiler": "^0.3.18"
   }
 }
