@@ -12,11 +12,7 @@ function EmblemAddon(project) {
 // };
 
 EmblemAddon.prototype.included = function(app) {
-  this.app = app;
-
-  var plugin = new EmblemPreprocessor();
-
-  this.app.registry.add('js', plugin);
+  this.app.registry.add('js', new EmblemPreprocessor());
 };
 
 // This is just here because it was required in ember-cli v0.0.37.
