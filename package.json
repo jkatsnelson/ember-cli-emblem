@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-emblem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Include emblem broccoli compiler and blueprints into your Ember-CLI project",
   "main": "index.js",
   "scripts": {
