@@ -4,6 +4,9 @@ var emblem = require('broccoli-emblem-compiler');
 
 module.exports = {
   name: 'ember-cli-emblem',
+  blueprintsPath: function() {
+    return __dirname + '/blueprints';
+  },  
   included: function (app) {
     this._super.included.apply(this, arguments);
     app.registry.add('template', {
