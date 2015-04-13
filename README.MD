@@ -1,7 +1,6 @@
-# What this does now:
+# Repro is deprecated and no longer maintained
 
-* Turns broccoli-emblem-compiler into an ember-cli-addon
+* see [https://github.com/Vestorly/ember-cli-emblem](https://github.com/Vestorly/ember-cli-emblem)
 
-# What I intend it to do later:
 
-* Add blueprints so that when a template is generated, it is emblem instead of hbs!
+
